@@ -1,4 +1,4 @@
-import styles from "./Keyboard.module.css";
+import styles from "./Keyboard.module.scss";
 
 export const Keyboard = ({
   handleButtonClick,
