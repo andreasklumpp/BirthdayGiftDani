@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BirthdayGiftDani/static/css/main.3d5a59b7.css",
-    "main.js": "/BirthdayGiftDani/static/js/main.bfb1ddca.js",
+    "main.css": "/BirthdayGiftDani/static/css/main.d2849dd3.css",
+    "main.js": "/BirthdayGiftDani/static/js/main.84765804.js",
     "static/js/787.340aced5.chunk.js": "/BirthdayGiftDani/static/js/787.340aced5.chunk.js",
     "index.html": "/BirthdayGiftDani/index.html",
-    "main.3d5a59b7.css.map": "/BirthdayGiftDani/static/css/main.3d5a59b7.css.map",
-    "main.bfb1ddca.js.map": "/BirthdayGiftDani/static/js/main.bfb1ddca.js.map",
+    "main.d2849dd3.css.map": "/BirthdayGiftDani/static/css/main.d2849dd3.css.map",
+    "main.84765804.js.map": "/BirthdayGiftDani/static/js/main.84765804.js.map",
     "787.340aced5.chunk.js.map": "/BirthdayGiftDani/static/js/787.340aced5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d5a59b7.css",
-    "static/js/main.bfb1ddca.js"
+    "static/css/main.d2849dd3.css",
+    "static/js/main.84765804.js"
   ]
 }
