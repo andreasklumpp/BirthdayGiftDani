@@ -20,7 +20,7 @@ function App() {
 
     setSolved(false);
 
-    if (code.length > 3) {
+    if (code.length > solution.length) {
       setValue(selectedNumber);
     }
   };
