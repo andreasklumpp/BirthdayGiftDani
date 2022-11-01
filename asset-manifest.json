@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BirthdayGiftDani/static/css/main.62ce421f.css",
-    "main.js": "/BirthdayGiftDani/static/js/main.b59c473a.js",
+    "main.js": "/BirthdayGiftDani/static/js/main.13d42056.js",
     "static/js/787.340aced5.chunk.js": "/BirthdayGiftDani/static/js/787.340aced5.chunk.js",
     "index.html": "/BirthdayGiftDani/index.html",
     "main.62ce421f.css.map": "/BirthdayGiftDani/static/css/main.62ce421f.css.map",
-    "main.b59c473a.js.map": "/BirthdayGiftDani/static/js/main.b59c473a.js.map",
+    "main.13d42056.js.map": "/BirthdayGiftDani/static/js/main.13d42056.js.map",
     "787.340aced5.chunk.js.map": "/BirthdayGiftDani/static/js/787.340aced5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62ce421f.css",
-    "static/js/main.b59c473a.js"
+    "static/js/main.13d42056.js"
   ]
 }
