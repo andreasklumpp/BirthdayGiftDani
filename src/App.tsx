@@ -6,7 +6,7 @@ function App() {
   const [value, setValue] = useState("");
   const [solved, setSolved] = useState(false);
 
-  const solution = "962";
+  const solution = "96235";
 
   const handleButtonClick = (selectedNumber: string) => {
     const code = `${value}${selectedNumber}`;
