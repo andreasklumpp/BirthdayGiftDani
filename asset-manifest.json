@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/BirthdayGiftDani/static/css/main.d2849dd3.css",
-    "main.js": "/BirthdayGiftDani/static/js/main.84765804.js",
+    "main.css": "/BirthdayGiftDani/static/css/main.ed554642.css",
+    "main.js": "/BirthdayGiftDani/static/js/main.388ff6f4.js",
     "static/js/787.340aced5.chunk.js": "/BirthdayGiftDani/static/js/787.340aced5.chunk.js",
+    "static/media/escape_room_logo.jpeg": "/BirthdayGiftDani/static/media/escape_room_logo.2c917614fb73865dbce3.jpeg",
     "index.html": "/BirthdayGiftDani/index.html",
-    "main.d2849dd3.css.map": "/BirthdayGiftDani/static/css/main.d2849dd3.css.map",
-    "main.84765804.js.map": "/BirthdayGiftDani/static/js/main.84765804.js.map",
+    "main.ed554642.css.map": "/BirthdayGiftDani/static/css/main.ed554642.css.map",
+    "main.388ff6f4.js.map": "/BirthdayGiftDani/static/js/main.388ff6f4.js.map",
     "787.340aced5.chunk.js.map": "/BirthdayGiftDani/static/js/787.340aced5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2849dd3.css",
-    "static/js/main.84765804.js"
+    "static/css/main.ed554642.css",
+    "static/js/main.388ff6f4.js"
   ]
 }
