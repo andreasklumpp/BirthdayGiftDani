@@ -8,6 +8,11 @@
   text-align: center;
   width: 250px;
   display: block;
+
+  .fadeout {
+    opacity: 0;
+    transition: all 250ms linear 2s;
+  }
 }
 
 .header {
@@ -49,5 +54,3 @@
 .exitGamesLogo {
   width: 75%;
 }
-
-

@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import "./App.scss";
 import { Fireworks } from "./components/fireworks/fireworks";
 import { Keyboard } from "./components/keyboard/keyboard";
+import escape_room_logo from "./assets/escape_room_logo.jpeg";
 
 function App() {
-  const [value, setValue] = useState("_ _ _ _ _");
+  const [value, setValue] = useState("_ _ _ _");
+  const [isFadingOut, setIsFadingOut] = useState(false);
   const [solved, setSolved] = useState(false);
 
-  const solution = "96235";
+  const solution = "2412";
 
   const handleButtonClick = (selectedNumber: string) => {
     const code = `${value}${selectedNumber}`;
@@ -16,13 +18,14 @@ function App() {
     if (code === solution) {
       // do something
       setSolved(true);
+      setIsFadingOut(true);
       return;
     }
 
     setSolved(false);
 
     if (code.length === solution.length && code !== solution) {
-      setValue("_ _ _ _ _");
+      setValue("_ _ _ _");
     }
 
     if (code.length > solution.length) {
@@ -36,11 +39,11 @@ function App() {
       {solved ? (
         <img
           className="exitGamesLogo"
-          src="https://www.exitgames-stuttgart.de/wp-content/uploads/2018/07/181030_ExitGames_Stuttgart_Logo_Umgewandelt_CMYK_Kontur.svg"
+          src={escape_room_logo}
           alt="Logo exit games stuttgart"
         />
       ) : (
-        <div className="wrapper">
+        <div className={`wrapper ${isFadingOut ? "fadeOut" : ""}`}>
           <div className="header">
             <div className="code">{value}</div>
             <div className={`indicator ${solved ? "correct" : "false"}`}></div>
